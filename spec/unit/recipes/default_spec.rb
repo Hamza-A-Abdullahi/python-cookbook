@@ -70,4 +70,16 @@ end
 it 'should install gunicorn plugin using pip management' do
   expect(chef_run).to run_execute ('install gunicorn==18.0')
 end
+
+it 'should install Flask-SSLify plugin using pip management' do
+  expect(chef_run).to run_execute ('install Flask-SSLify==0.1.4')
+end
+
+##### # Test harness pytest==2.5.2  #####
+it 'should install pytest plugin using pip management' do
+  expect(chef_run).to run_execute ('install pytest==2.5.2')
+end
+
+
+
 end  ## CLOSING (describe 'python::default')

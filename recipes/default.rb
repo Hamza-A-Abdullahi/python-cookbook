@@ -67,3 +67,8 @@ end
 execute 'install Flask-SSLify==0.1.4' do
   command 'pip install flask-SSLify==0.1.4'
 end
+
+##### # Test harness pytest==2.5.2  #####
+execute 'install pytest==2.5.2' do
+  command 'pip install pytest==2.5.2'
+end
