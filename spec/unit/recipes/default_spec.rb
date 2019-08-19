@@ -80,6 +80,31 @@ it 'should install pytest plugin using pip management' do
   expect(chef_run).to run_execute ('install pytest==2.5.2')
 end
 
+##### Coverage pytest-cov==1.6 ######
+it 'should install pytest-cov plugin using pip management' do
+  expect(chef_run).to run_execute ('install pytest-cov==1.6')
+end
+
+##### HTTP Fixtures betamax==0.4.0 #######
+it 'should install betamax plugin using pip management' do
+  expect(chef_run).to run_execute ('install betamax==0.4.0')
+end
+
+##flake8==2.1.0
+it 'should install flake8 plugin using pip management' do
+  expect(chef_run).to run_execute ('install flake8==2.1.0')
+end
+
+##install pep8==1.5.6
+it 'should install pep8 plugin using pip management' do
+  expect(chef_run).to run_execute ('install pep8==1.5.6')
+end
 
 
-end  ## CLOSING (describe 'python::default')
+it 'should install pyflakes plugin using pip management' do
+  expect(chef_run).to run_execute ('install pyflakes==0.8.1')
+end
+
+
+
+end  ## CLOSING (describe 'python::default') ###

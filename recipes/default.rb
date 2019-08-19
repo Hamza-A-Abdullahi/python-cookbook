@@ -72,3 +72,31 @@ end
 execute 'install pytest==2.5.2' do
   command 'pip install pytest==2.5.2'
 end
+
+##### Coverage pytest-cov==1.6 #######
+execute 'install pytest-cov==1.6' do
+  command 'pip install pytest-cov==1.6'
+end
+
+##### HTTP Fixtures betamax==0.4.0 #######
+execute 'install betamax==0.4.0' do
+  command 'pip install betamax==0.4.0'
+end
+
+####### LINT OR DIE ##########
+execute 'install flake8==2.1.0' do
+  command 'pip install flake8==2.1.0'
+end
+
+execute 'install pep8==1.5.6' do
+  command 'pip install pep8==1.5.6'
+end
+
+execute 'install pyflakes==0.8.1' do
+  command 'pip install pyflakes==0.8.1'
+end
+
+###### Coveralls #######
+execute 'install pyflakes==0.8.1' do
+  command 'pip install pyflakes==0.8.1'
+end
