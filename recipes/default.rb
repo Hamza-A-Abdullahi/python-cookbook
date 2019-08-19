@@ -12,3 +12,8 @@ package "python" do
 end
 
 package 'python-pip'  # package default will install
+
+#### flask ####
+execute 'install Flask==0.10.1' do
+  command 'pip install flask==0.10.1'
+end

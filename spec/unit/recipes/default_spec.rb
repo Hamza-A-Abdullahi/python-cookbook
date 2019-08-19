@@ -30,4 +30,8 @@ describe 'python::default' do
    expect(chef_run).to install_package 'python-pip'
 end
 
+it 'should install flask plugin using pip management'do
+  expect(chef_run).to run_execute ('install Flask==0.10.1')
+end
+
 end  ## CLOSING (describe 'python::default')
