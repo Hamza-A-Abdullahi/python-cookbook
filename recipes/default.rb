@@ -22,3 +22,48 @@ end
 execute 'install Jinja2==2.7.3' do
   command 'pip install jinja2==2.7.3'
 end
+
+### MarkupSafe #####
+execute 'install MarkupSafe==0.23' do
+  command 'pip install MarkupSafe==0.23'
+end
+
+### Werkzeug==0.9.6 ####
+execute 'install Werkzeug==0.9.6' do
+  command 'pip install Werkzeug==0.9.6'
+end
+
+#### gnureadline==6.3.3 ###
+execute 'install gnureadline==6.3.3' do
+  command 'pip install gnureadline==6.3.3'
+end
+
+#### itsdangerous==0.24 ####
+execute 'install itsdangerous==0.24' do
+  command 'pip install itsdangerous==0.24'
+end
+
+### rauth==0.7.0 ###
+execute 'install rauth==0.7.0' do
+  command 'pip install rauth==0.7.0'
+end
+
+#### requests==2.3.0  #######
+execute 'install requests==2.3.0' do
+  command 'pip install requests==2.3.0'
+end
+
+#### wsgiref==0.1.2 ######
+execute 'install wsgiref==0.1.2' do
+  command 'pip install wsgiref==0.1.2'
+end
+
+#### gunicorn==18.0 #####
+execute 'install gunicorn==18.0' do
+  command 'pip install gunicorn==18.0'
+end
+
+### Flask-SSLify==0.1.4 #####
+execute 'install Flask-SSLify==0.1.4' do
+  command 'pip install flask-SSLify==0.1.4'
+end
