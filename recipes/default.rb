@@ -10,3 +10,5 @@ end
 package "python" do
   action :install
 end
+
+package 'python-pip' 

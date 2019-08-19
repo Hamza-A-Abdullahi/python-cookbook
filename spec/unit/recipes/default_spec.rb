@@ -26,4 +26,8 @@ describe 'python::default' do
    expect(chef_run).to install_package 'python'
  end
 
+ it 'should install Python package management pip' do
+   expect(chef_run).to install_package 'python-pip'
 end
+
+end  ## CLOSING (describe 'python::default')
