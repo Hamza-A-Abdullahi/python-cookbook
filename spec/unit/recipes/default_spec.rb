@@ -34,4 +34,7 @@ it 'should install flask plugin using pip management'do
   expect(chef_run).to run_execute ('install Flask==0.10.1')
 end
 
+it 'should install jinja2 plugin using pip management'do
+  expect(chef_run).to run_execute ('install Jinja2==2.7.3')
+end
 end  ## CLOSING (describe 'python::default')

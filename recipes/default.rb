@@ -17,3 +17,8 @@ package 'python-pip'  # package default will install
 execute 'install Flask==0.10.1' do
   command 'pip install flask==0.10.1'
 end
+
+### Jinja2 ######
+execute 'install Jinja2==2.7.3' do
+  command 'pip install jinja2==2.7.3'
+end
